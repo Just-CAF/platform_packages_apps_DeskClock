@@ -21,14 +21,14 @@
         <item name="android:colorBackgroundFloating" tools:targetApi="23">
             ?attr/colorBackgroundFloating
         </item>
-        <item name="android:navigationBarColor" tools:targetApi="21">?attr/colorPrimaryDark</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/sys_accent_dark</item>
         <item name="android:popupTheme" tools:targetApi="21">?attr/popupTheme</item>
         <item name="android:timePickerStyle" tools:targetApi="21">@style/Widget.TimePicker</item>
         <item name="android:windowBackground">@color/default_background</item>
         <item name="android:windowContentOverlay">@null</item>
 
         <!-- Attributes from androidx.appcompat.appcompat -->
-        <item name="colorAccent">#DA4336</item>
+        <item name="colorAccent">@color/sys_accent_light</item>
         <item name="colorBackgroundFloating">#303030</item>
         <item name="colorControlActivated">@android:color/white</item>
         <item name="colorControlNormal">?android:attr/textColorPrimary</item>
